@@ -51,7 +51,6 @@ public class Program4Solution{
         //Calc
         numSum = num1 + num2 + num3 + num4;
         numAvg = numSum/4.0; //Could also do [(double) numSum/4;]
-        System.out.println(numAvg);
         //Get rid of decimals
         numAvg = (numAvg*100)+0.5;          // shift decimal 2 places, add 0.5 to see if we needed to round
         numAvg = (int)numAvg;               // cast to int to remove other decimal places, auto cast back to double on assignment
